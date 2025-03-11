@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI 烹饪助手</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>AI 烹饪助手</h1>
+      <p>智能推荐，轻松烹饪</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="search-section">
+      <h2>寻找菜谱</h2>
+      <div class="search-box">
+        <input type="text" id="ingredient-search" placeholder="输入你有的食材，用逗号分隔...">
+        <button id="search-btn">搜索</button>
+      </div>
+    </section>
+
+    <section class="recipes-section">
+      <h2>推荐菜谱</h2>
+      <div id="recipes-container" class="recipes-grid">
+        <!-- 菜谱将通过JavaScript动态加载 -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 AI 烹饪助手 | 使用人工智能技术辅助烹饪</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
