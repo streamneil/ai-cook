@@ -1,0 +1,18 @@
+---
+description: This is the project's tech stack.
+globs: 
+alwaysApply: false
+---
+
+# Technical Stack  
+
+- Language: Kotlin (Primary), Java (Legacy)  
+- Architecture: MVVM + Jetpack Compose / XML  
+- Network: Retrofit + OkHttp  
+- Dependency Injection: Hilt  
+- Database: Room / DataStore  
+- Coroutines: Kotlin Coroutines + Flow  
+- Build System: Gradle (Kotlin DSL)  
+- Testing: JUnit + Espresso + MockK  
+- CI/CD: GitHub Actions / Jenkins  
+- Code Quality: Ktlint + Detekt  
